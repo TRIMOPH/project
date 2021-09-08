@@ -1,0 +1,8 @@
+user_input=input('Enter the Name : ')
+text=user_input.split()
+acronysm = ''
+for str in text:
+    if len(str)>3:
+        acronysm= acronysm + str[0].upper()
+
+print(acronysm)
